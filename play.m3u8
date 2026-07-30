@@ -1,4 +1,20 @@
 #EXTM3U
+#EXT-X-VERSION:6
+#EXT-X-MEDIA-SEQUENCE:60
+#EXT-X-DISCONTINUITY-SEQUENCE:0
+#EXT-X-ALLOW-CACHE:NO
+#EXT-X-TARGETDURATION:2
+
+#EXTINF:0.933600,
+segment1.060.ts
+
+#EXT-X-DISCONTINUITY
+#EXTINF:0.966911,
+file.000.ts
+
+#EXTINF:1.000489,
+file.001.ts
+
 #EXTINF:-1 tvg-name="= Самообновляемый плейлист FreeBestTV SNIPTV =" ,= Самообновляемый плейлист FreeBestTV SNIPTV =
 https://tass-hls.servicecdn.ru/httpstreamer/tass-loop-main.stream_480p/playlist.m3u8
 #EXTINF:-1 tvg-name="=== Наша группа в ВК (https://vk.com/clubslynet) ===" ,=== Наша группа в ВК (https://vk.com/clubslynet) ===
